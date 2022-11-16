@@ -1,0 +1,88 @@
+body{
+    text-align: center;
+    color: aliceblue;
+}
+.bc_img {
+    width: 100%;
+    /* height: 1300px; */
+    height: 100%;
+    background-image: url('./images/universe.png');
+    background-size: 100% 100%;
+    border: 1px solid rgb(0, 81, 255);
+  }
+
+  .photo{
+    margin-top: 76px;
+
+  }
+
+  .containers {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+     
+   }
+/* ------------------------- */
+.left_logo {
+    display: inline;
+    float: left;
+    margin-left: 4px;
+    /* content:url("https://1.bp.blogspot.com/-NknV6HIVxKc/V06_WraBJEI/AAAAAAAAJWc/QwJMGxKHaywCIf2QHOLD-YwFQdn8VDaVgCLcB/s320/chelsea-logo.PNG"); */
+    width:50px;
+    height:50px;
+  vertical-align: middle;
+
+  }
+
+  
+  
+  /* --------------------------- */
+
+  /* ----------------
+  */
+.box{
+  /* display: table-cell; */
+  background-color:rgba(255, 255, 255, 1) ;
+  border-radius: 5px;
+  padding: 3px;
+  border: 3px dashed #c61cff;
+  vertical-align: middle;
+   width: 60%;
+  text-align: center;
+   margin: 9px ;
+  color: black;
+  height: 50px;
+
+
+ 
+  
+}
+
+
+  /* --------------------------------- */
+
+.contact{
+    background-color:rgba(1, 116, 116,0.5) ;
+    border-radius: 10px;
+    /* width: max-content; */
+    text-align: center;
+    margin: 100px ;
+    
+    justify-content: center
+
+}
+
+
+.logo {
+    /* display:inline-flex; */
+    /* width: auto; */
+    text-align: center;
+    /* padding: 50%  ; */
+    /* display: block; */
+    padding-bottom: 20px;
+
+    
+}
+  
