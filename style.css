@@ -13,9 +13,12 @@ body{
 
   .photo{
     margin-top: 76px;
+    
 
   }
-
+.photo img{
+  border-radius: 50%;
+}
   .containers {
     
     display: flex;
